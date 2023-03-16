@@ -45,11 +45,12 @@ The header file `easy_inp.h` also defines two constants used in the functions: S
 
 ## How to run:
  - Navigate to the directory of the program
- - If you wish to change the custom header or function definitions, edit the `easy_inp.h` or `easy_inp.c` files, respectively. For the main program, edit `main.c`
+ - If you wish to change the custom header or function definitions, edit `easy_inp.c`. For the main program, edit `main.c`
  - If you edited anything, use the command
 
 ```$ gcc -c [FILE_NAME]```
-to create new object files (`easy_inp.c`, not .h if you editied either)
+
+to create new object files
  - After that, use
 
 ```$ gcc easy_inp.c main.c -o main``` 
